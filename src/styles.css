@@ -1,10 +1,17 @@
 .App {
   font-family: sans-serif;
   text-align: center;
- 
 }
-:root{
-  --primary-color:#9D174D;
-  --secondary-color:#1F2937;
-  --div-color:#F9A8D4;
+:root {
+  --primary-color: #9d174d;
+  --secondary-color: #1f2937;
+  --div-color: #f9a8d4;
+}
+.background{
+ 
+  min-height: 100vh;
+  background-attachment:fixed;
+  
+  background-repeat: no-repeat;
+  background-position: center
 }
