@@ -88,22 +88,22 @@ export default function App() {
           <footer>
             <ul>
               <li className="footerLink">
-                <a href="">
-                  <i className="fab fa-github"></i>
+                <a href="/">
+                  <i className="fab fa-github" aria-hidden="true"></i>
                 </a>
               </li>
               <li className="footerLink">
-                <a href="">
-                  <i className="fab fa-twitter"></i>
+                <a href="/">
+                  <i className="fab fa-twitter"> </i>
                 </a>
               </li>
               <li className="footerLink">
-                <a href="">
-                  <i className="fab fa-linkedIn"></i>
+                <a href="/">
+                  <i className="fab fa-linkedin-in"></i>
                 </a>
               </li>
               <li className="footerLink">
-                <a href="">
+                <a href="/">
                   <i className="fas fa-briefcase"></i>
                 </a>
               </li>

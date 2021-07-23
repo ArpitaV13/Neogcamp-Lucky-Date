@@ -14,6 +14,7 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
 #alertWindow {
   border: 1px solid red;
   background-color: #374151;
@@ -46,5 +47,23 @@ button {
   font-weight: bold;
 }
 footer {
-  background-color: var(--primary-color);
+  color: black;
+}
+.footerLink a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+  font-size: 1.1rem;
+  color: black;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerLink a:hover {
+  color: var(--primary-color);
 }
