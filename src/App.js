@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./styles.css";
-import bck from "/src/bck.svg";
+import bg from "/src/bg.svg";
 import lucky from "/src/lucky.svg";
 import unlucky from "/src/unlucky.svg";
 
@@ -37,7 +37,7 @@ export default function App() {
       <div
         className="background"
         style={{
-          backgroundImage: `url("${bck}")`
+          backgroundImage: `url("${bg}")`
         }}
       >
         <div className="content">
@@ -85,6 +85,46 @@ export default function App() {
             <div className="label">{displayResult[0]}</div>
             {displayResult[1]}
           </div>
+          <footer>
+            <ul>
+              <li className="footerLink">
+                <a href="">
+                  <i className="fab fa-github"></i>
+                </a>
+              </li>
+              <li className="footerLink">
+                <a href="">
+                  <i className="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li className="footerLink">
+                <a href="">
+                  <i className="fab fa-linkedIn"></i>
+                </a>
+              </li>
+              <li className="footerLink">
+                <a href="">
+                  <i className="fas fa-briefcase"></i>
+                </a>
+              </li>
+            </ul>
+            <div className="legalText">
+              © 2021 | Arpita |{" "}
+              <a
+                href="alertWindow"
+                onClick={() => {
+                  setDisplayAlert(" ");
+                }}
+                style={{
+                  cursor: "pointer",
+                  color: "black",
+                  textDecoration: "none"
+                }}
+              >
+                Privacy Policy
+              </a>
+            </div>
+          </footer>
         </div>
       </div>
     </div>
