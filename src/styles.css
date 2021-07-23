@@ -47,6 +47,7 @@ button {
   font-weight: bold;
 }
 footer {
+  margin-top: 50vh;
   background-color: var(--primary-color);
 }
 .footerLink a {
