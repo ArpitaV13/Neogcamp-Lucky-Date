@@ -47,7 +47,7 @@ button {
   font-weight: bold;
 }
 footer {
-  color: black;
+  background-color: var(--primary-color);
 }
 .footerLink a {
   text-decoration: none;
@@ -63,7 +63,4 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.footerLink a:hover {
-  color: var(--primary-color);
 }

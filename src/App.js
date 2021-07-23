@@ -88,36 +88,37 @@ export default function App() {
           <footer>
             <ul>
               <li className="footerLink">
-                <a href="/">
+                <a href="https://github.com/AnkitaBagale">
                   <i className="fab fa-github" aria-hidden="true"></i>
                 </a>
               </li>
               <li className="footerLink">
-                <a href="/">
-                  <i className="fab fa-twitter"> </i>
+                <a href="https://twitter.com/AnkitaB1108">
+                  <i className="fab fa-twitter"></i>
                 </a>
               </li>
               <li className="footerLink">
-                <a href="/">
+                <a href="https://www.linkedin.com/in/ankita-bagale1108">
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </li>
               <li className="footerLink">
-                <a href="/">
+                <a href="https://ankitabagale-portfolio.netlify.app/">
                   <i className="fas fa-briefcase"></i>
                 </a>
               </li>
             </ul>
+
             <div className="legalText">
-              © 2021 | Arpita |{" "}
+              © 2021 | ArpitaV-13 |{" "}
               <a
-                href="alertWindow"
+                href="#alertWindow"
                 onClick={() => {
-                  setDisplayAlert(" ");
+                  setDisplayAlert("");
                 }}
                 style={{
                   cursor: "pointer",
-                  color: "black",
+                  color: "Black",
                   textDecoration: "none"
                 }}
               >
