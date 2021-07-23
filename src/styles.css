@@ -7,11 +7,22 @@
   --secondary-color: #1f2937;
   --div-color: #f9a8d4;
 }
-.background{
- 
+.background {
   min-height: 100vh;
-  background-attachment:fixed;
-  
+  background-attachment: fixed;
+
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
+}
+#alertWindow {
+  border: 1px solid red;
+  max-width: 30%;
+  padding: 0.5rem;
+  margin: auto;
+  color: red;
+}
+#birthdate-input {
+  padding: 0.5rem;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
 }
