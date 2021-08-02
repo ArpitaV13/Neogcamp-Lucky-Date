@@ -88,22 +88,22 @@ export default function App() {
           <footer>
             <ul>
               <li className="footerLink">
-                <a href="https://github.com/AnkitaBagale">
+                <a href="https://github.com/ArpitaV13">
                   <i className="fab fa-github" aria-hidden="true"></i>
                 </a>
               </li>
               <li className="footerLink">
-                <a href="https://twitter.com/AnkitaB1108">
+                <a href="https://twitter.com/ArpitaV13">
                   <i className="fab fa-twitter"></i>
                 </a>
               </li>
               <li className="footerLink">
-                <a href="https://www.linkedin.com/in/ankita-bagale1108">
+                <a href="https://www.linkedin.com/in/arpitav13/">
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </li>
               <li className="footerLink">
-                <a href="https://ankitabagale-portfolio.netlify.app/">
+                <a href="https://arpita-verma.netlify.app/">
                   <i className="fas fa-briefcase"></i>
                 </a>
               </li>
